@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Luxe Hotel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">
+                <span class="text-5xl">Le</span><span class="text-yellow-500">*****</span><span class="text-5xl">uxe</span>
+            </div>
+            <nav class="space-x-6">
+                <a href="#" class="text-gray-700 hover:text-yellow-500">Home</a>
+                <a href="#" class="text-gray-700 hover:text-yellow-500">About</a>
+                <a href="#" class="text-gray-700 hover:text-yellow-500">Living</a>
+                <a href="#" class="text-gray-700 hover:text-yellow-500">Dining</a>
+                <a href="#" class="text-gray-700 hover:text-yellow-500">Features</a>
+                <a href="#" class="text-gray-700 hover:text-yellow-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('PIC\ 1.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto h-full flex items-center justify-center">
+            <div class="text-center text-white z-10">
+                <h1 class="text-4xl font-bold">The must-see panoramic hotel from France</h1>
+                <p class="mt-4 text-xl">Experience luxury like never before</p>
+                <button class="mt-6 bg-yellow-500 text-white px-4 py-2 rounded">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <main class="container mx-auto my-8 p-6 bg-white shadow-lg rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Left Image Section -->
+            <div class="p-4">
+                <img src="image1_url" alt="Breakfast" class="rounded-lg shadow-lg">
+            </div>
+            <!-- Center Image Section -->
+            <div class="p-4">
+                <img src="image2_url" alt="Hotel" class="rounded-lg shadow-lg">
+                <div class="mt-4 text-center">
+                    <h1 class="text-2xl font-bold">The must-see panoramic hotel from France</h1>
+                </div>
+            </div>
+            <!-- Right Image Section -->
+            <div class="p-4">
+                <img src="PIC 1.jpg" alt="Room" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </main>
+
+    <!-- Booking Section -->
+    <section class="container mx-auto p-6 bg-white shadow-lg rounded-lg mt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
+            <div>
+                <label class="block text-gray-700">Check-in</label>
+                <input type="date" class="border border-gray-300 rounded p-2">
+            </div>
+            <div>
+                <label class="block text-gray-700">Check-out</label>
+                <input type="date" class="border border-gray-300 rounded p-2">
+            </div>
+            <div>
+                <label class="block text-gray-700">Adults</label>
+                <input type="number" value="2" class="border border-gray-300 rounded p-2">
+            </div>
+            <div>
+                <label class="block text-gray-700">Children</label>
+                <input type="number" value="0" class="border border-gray-300 rounded p-2">
+            </div>
+            <div>
+                <button class="bg-yellow-500 text-white px-4 py-2 rounded">BOOK NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow p-6 mt-8">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-700">&copy; 2024 Le Luxe Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
